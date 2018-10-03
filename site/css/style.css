@@ -1,0 +1,210 @@
+@charset "utf-8"
+    *{
+        margin: 0;
+        padding:0;
+        outline: none;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    color: #333;
+    background: #f7f7f7;
+    font-size: 1em;
+    font-family: "Segoe UI", sans-serif;
+    line-height: 135%;
+}
+
+a{
+    color:#f48b8b;
+    text-decoration: none;
+    transition: all.6s ease;
+}
+
+a:hover{
+    color:#8b9ff5;
+    text-decoration: none;
+    transition: all.6s ease;
+}
+a:active{color:aquamarine}
+
+img{
+    max-width: 100%;
+    height: auto;
+    width: auto/9;
+}
+
+hr{
+    display: block;
+    border: 0;
+    height: 1px;
+    border-top: 1px solid #ccc;
+    padding: 0; 
+}
+
+.right{float: right}
+.left{float: left}
+.clear{clear:both}
+
+::selection{background: #f18b8b;color:#fff}
+
+
+header,footer{
+    width:98%;
+    background-color: #fff;
+    float: left;
+ 
+}
+
+header{
+    border-bottom: 2px solid silver;
+    padding: 1%;
+}
+#logo{
+    font-size: 2em;
+    font-family: Comic Sans Ms, sans-serif;
+    color:silver;
+}
+
+#contact{
+    font-size: 1.5em;
+    font-family: Comic Sans Ms, sans-serif;
+    margin-left: 20px;
+}
+
+html{height: 100%}
+
+input[type=text].field{
+    border-radius: 5px;
+    border: 2px solid silver;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+
+#menu{
+    color: #666;
+    font-family: Comic Sans, sans-serif;
+    font-size: 1.7 em;
+}
+
+#menu hr{
+    width: 500px;
+    max-width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#menuHrefs a{
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+    color:#626262;
+}
+
+#menuHrefs a:hover{
+    background-color: #ececec;
+}
+
+/* основные стили сайта*/
+
+#wrapper{
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#wrapper #articles{
+    float: left;
+    width: 80%;
+    margin-left: 10%;
+}
+
+#wrapper #articles article{
+    float: left;
+    width: 31.333%;
+    border: 1px solied silver;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #fafafa;
+    margin-right: 2%;
+    min-height: 400px;   
+}
+
+#wrapper #articles article img{
+    width: 100%;
+    height: 200px;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: 1px solid silver;
+    margin-bottom: 10px;
+}
+
+#wrapper #articles article h2{
+    widows: 90%;
+    margin-left: 5%;
+    font-weight: normal;
+    font-size: 1.7em;
+    color: #4a4a4a;
+}
+
+#wrapper #articles article p{
+    width: 80%;
+    margin-left: 10%;
+    text-indent: 1em;
+}
+
+#wrapper #articles article a{
+    padding: 10px 5px;
+    background-color: aqua;
+    color: #fff;
+    margin-left: 5%;
+    border-radius: 5px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+#wrapper #articles article a:hover{
+    background-color: #7feb6d;
+}
+
+/*О нас*/
+#about_us{
+    width: 100%;
+    float: left;
+    background-color: #fafafa;
+    border-radius: 5px;
+    border: 1px solid silver;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+
+/* Стили footer*/
+
+footer{
+    border-bottom: 2px solid silver;
+    margin-top: 10px;
+    padding: 1%;
+    padding-bottom: 2%;
+}
+
+footer img{
+    width: 10%; 
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+#page-wrap:after{
+    content: "";
+    display: block;
+}
+
+footer,#page-wrap:after {height: 10px}
+
+#page-wrap{
+    min-height: 90%;
+    margin-bottom: -10px;
+
+}
